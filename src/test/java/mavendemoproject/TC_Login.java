@@ -20,7 +20,6 @@ public class TC_Login {
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		
-		// driver.get("https://www.ebay.com/");
 		
 		driver.findElement(By.name("username")).sendKeys("Admin");
 		driver.findElement(By.name("password")).sendKeys("admin123");
